@@ -25,8 +25,10 @@ def szovegFordit(szoveg):
 	
 # Az eljárást készítette:	
 def szovegCsere(szoveg):
-	# Ide írd meg az eljárást!
-	return ""
+	maganHango="aáéoöőűúóiíAÁÉOÖŐŰÚÓIÍ"
+	for x in range(0,len(maganHango)):
+		szoveg=szoveg.replace(maganHango[x],"e");
+	return szoveg
 	
 # Az eljárást készítette:	
 def szovegParos(szoveg):
