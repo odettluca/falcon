@@ -43,8 +43,9 @@ def szovegParatlan(szoveg):
 	return ""
 	
 # Itt kezdődik a főprogram
-szoveg=input("Írj be egy szöveget:")
-print(szovegFordit(szoveg))
-print(szovegCsere(szoveg))
-print(szovegParos(szoveg))
-print(szovegParatlan(szoveg))
+for x in range(0,3):
+	szoveg=input("Írj be egy szöveget:")
+	print(szovegFordit(szoveg))
+	print(szovegCsere(szoveg))
+	print(szovegParos(szoveg))
+	print(szovegParatlan(szoveg))
