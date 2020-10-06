@@ -30,8 +30,10 @@ def szovegCsere(szoveg):
 	
 # Az eljárást készítette:	
 def szovegParos(szoveg):
-	# Ide írd meg az eljárást!
-	return ""
+	parosSzoveg = ""
+	for x in range(0,len(szoveg),2):
+		parosSzoveg += szoveg[x]
+	return parosSzoveg
 	
 # Az eljárást készítette:	
 def szovegParatlan(szoveg):
