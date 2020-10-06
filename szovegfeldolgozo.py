@@ -39,3 +39,6 @@ def szovegParatlan(szoveg):
 # Itt kezdődik a főprogram
 szoveg=input("Írj be egy szöveget:")
 print(szovegFordit(szoveg))
+print(szovegCsere(szoveg))
+print(szovegParos(szoveg))
+print(szovegParatlan(szoveg))
